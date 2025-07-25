@@ -1,25 +1,17 @@
 # Model Card for SmolLM2-FT-MyDataset
 
-This model is a fine-tuned version of [HuggingFaceTB/SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M).
-It has been trained using [TRL](https://github.com/huggingface/trl). 
-It has been trained on the [smoltalk dataset](https://huggingface.co/datasets/HuggingFaceTB/smoltalk).
+- This model is a fine-tuned version of [HuggingFaceTB/SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M).
+- It has been trained using [TRL](https://github.com/huggingface/trl). 
+- It has been trained on the [smoltalk dataset](https://huggingface.co/datasets/HuggingFaceTB/smoltalk).
 
 ![image](https://github.com/user-attachments/assets/d1f68157-fbaa-44fb-b10e-a188d83a6e32)
 
----
-base_model: HuggingFaceTB/SmolLM2-135M
-library_name: transformers
-model_name: SmolLM2-FT-MyDataset
-datasets:
-- HuggingFaceTB/smoltalk
-tags:
-- generated_from_trainer
-- smol-course
-- module_1
-- trl
-- sft
-licence: license
----
+- base_model: HuggingFaceTB/SmolLM2-135M
+- library_name: transformers
+- model_name: SmolLM2-FT-MyDataset
+- datasets: HuggingFaceTB/smoltalk
+- tags: generated_from_trainer, smol-course, module_1, trl, sft
+
 
 ## Quick start
 
