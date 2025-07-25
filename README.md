@@ -1,3 +1,9 @@
+# Model Card for SmolLM2-FT-MyDataset
+
+This model is a fine-tuned version of [HuggingFaceTB/SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M).
+It has been trained using [TRL](https://github.com/huggingface/trl). 
+It has been trained on the [smoltalk dataset](https://huggingface.co/datasets/HuggingFaceTB/smoltalk).
+
 ![image](https://github.com/user-attachments/assets/d1f68157-fbaa-44fb-b10e-a188d83a6e32)
 
 ---
@@ -14,11 +20,6 @@ tags:
 - sft
 licence: license
 ---
-# Model Card for SmolLM2-FT-MyDataset
-
-This model is a fine-tuned version of [HuggingFaceTB/SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M).
-It has been trained using [TRL](https://github.com/huggingface/trl). 
-It has been trained on the [smoltalk dataset](https://huggingface.co/datasets/HuggingFaceTB/smoltalk).
 
 ## Quick start
 
