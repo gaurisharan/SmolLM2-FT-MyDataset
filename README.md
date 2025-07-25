@@ -6,12 +6,13 @@
 
 ![image](https://github.com/user-attachments/assets/d1f68157-fbaa-44fb-b10e-a188d83a6e32)
 
-- base_model: HuggingFaceTB/SmolLM2-135M
-- library_name: transformers
-- model_name: SmolLM2-FT-MyDataset
-- datasets: HuggingFaceTB/smoltalk
-- tags: generated_from_trainer, smol-course, module_1, trl, sft
-
+---
+base_model: HuggingFaceTB/SmolLM2-135M
+library_name: transformers
+model_name: SmolLM2-FT-MyDataset
+datasets: "HuggingFaceTB/smoltalk"
+tags: "generated_from_trainer, smol-course, module_1, trl, sft"
+---
 
 ## Quick start
 
